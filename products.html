@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = stylesheet href -="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/boot
+  strap.min.css">
+  <link rel = stylesheet href = styles.css>
+  <title>Groceries to Go</title>
+</head>
+
+<body>
+
+  <div class = section>
+
+    <div class = header>
+      <h1>Groceries to Go</h1>
+
+      <nav>
+        <a href = products.html>Products</a>
+        <a href = cart.html>Cart</a>
+        <a href = login.html>Logout</a>
+      </nav>
+
+    </div>
+
+  <div class = productCatalogue>
+    <h2>Our Products</h2>
+
+    <!--Each catalogue row will have three item-->
+    <div class = productRow>
+      
+    <div class = product>
+      
+      <img src = "https://i5.walmartimages.ca/images/Enlarge/025/1_1/999999-6872100251_1.jpg?odnHeight" width = "150" height = '100' class = imgProduct><br>
+
+      <div class = innerProducts>
+      <h4 class = itemName>Whole Wheat Bread</h4>
+      <h4>- $</h4>
+      <h4 class = price>3.99</h4>
+    </div>
+
+    <div class = innerProducts>
+      <!--Quality Selection-->
+      <select id = breadQ class = quantity>
+        <option value = 1>1</option>
+        <option value = 2>2</option>
+        <option value = 3>3</option>
+        <option value = 4>4</option>
+        <option value = 5>5</option>
+      </select><br>
+
+    <!--Add to cart button-->
+    <button type="button" class = "add" onclick = 'addToCart(this)'>Add to Cart</button>
+    </div><br>
+    </div>
+
+    <div class = product>
+      <img src = "https://assets.shop.loblaws.ca/products/20842545/b1/en/angle/20842545_angle_a01_@2.png" width = "150" height = '100' class = imgProduct><br>
+      
+      <div class = innerProducts>
+        <h4 class = itemName>Cereal</h4>
+        <h4> - $</h4>
+        <h4 class = price>4.99</h4>
+      </div>
+
+      <div class = innerProducts>
+      <!--Quality Selection-->
+      <select id = cerealQ class = quantity>
+        <option value = 1>1</option>
+        <option value = 2>2</option>
+        <option value = 3>3</option>
+        <option value = 4>4</option>
+        <option value = 5>5</option>
+      </select><br>
+
+    <!--Add to cart button-->
+    <button type="button" class = "add"  onclick = 'addToCart(this)' >Add to Cart</button>
+    </div><br>
+    </div>
+
+    <div class = product>
+      <img src = "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRliqRl8evzoYrUgWNjjd-wKwImQMfn9TJ084cEpDGN-mT_O3FMb8EVAn-s7QfPXHmP_TS5gPXwUnK9xemCWaQu_M2ufMuoAr0v7UCaokZpzHXGC9OMlcQUSA&usqp=CAE" width = "150" height = '100' class = imgProduct><br>
+      
+      <div class = innerProducts>
+        <h4 class = itemName>Eggs</h4>
+        <h4> - $</h4>
+        <h4 class = price>6.99</h4>
+      </div>
+
+      <div class = innerProducts>
+    
+      <!--Quality Selection-->
+      <select id = eggQ class = quantity>
+        <option value = 1>1</option>
+        <option value = 2>2</option>
+        <option value = 3>3</option>
+        <option value = 4>4</option>
+        <option value = 5>5</option>
+      </select><br>
+
+    <!--Add to cart button-->
+    <button type="button" class = "add"  onclick = 'addToCart(this)'>Add to Cart</button>
+       </div><br>
+    </div>
+
+   </div>
+   <!--Row 2-->
+   <div class = productRow>
+      
+    <div class = product>
+      <img src = "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRl2SWwexnVDG-4P37D2XWqD_gdJGkY5Hgkv3OjY8vmmjjDmC4Rt0pzwyf64jU_KwQieuPudkfJePDadS1UHtJQ5njUUJCqGI_9ZMhOcZHA&usqp=CAE" width = "150" height = '100' class = imgProduct><br>
+      
+      <div class = innerProducts>
+        <h4 class = itemName>Peanut Butter</h4>
+        <h4> - $</h4>
+        <h4 class = price>2.50</h4>
+      </div>
+
+      <div class = innerProducts>
+    
+      <!--Quality Selection-->
+      <select id = pBQ class = quantity>
+        <option value = 1>1</option>
+        <option value = 2>2</option>
+        <option value = 3>3</option>
+        <option value = 4>4</option>
+        <option value = 5>5</option>
+      </select><br>
+
+    <!--Add to cart button-->
+    <button type="button" class = "add"  onclick = 'addToCart(this)'>Add to Cart</button>
+    </div><br>
+  </div>
+
+    <div class = product>
+      <img src = "https://i5.walmartimages.ca/images/Enlarge/094/514/6000200094514.jpg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF" width = "150" height = '100' class = imgProduct><br>
+      
+      <div class = innerProducts>
+        <h4 class = itemName>Apple</h4>
+        <h4> - $</h4>
+        <h4 class = price>0.25</h4>
+      </div>
+
+      <div class = innerProducts>
+      <!--Quality Selection-->
+      <select id = appleQ class = quantity>
+        <option value = 1>1</option>
+        <option value = 2>2</option>
+        <option value = 3>3</option>
+        <option value = 4>4</option>
+        <option value = 5>5</option>
+      </select><br>
+
+    <!--Add to cart button-->
+    <button type="button" class = "add"  onclick = 'addToCart(this)'>Add to Cart</button>
+    </div><br>
+    </div>
+
+    <div class = product>
+      <img src = "https://i5.walmartimages.com/seo/Fresh-Slicing-Tomato-Each_a1e8e44a-2b82-48ab-9c09-b68420f6954c.04f6e0e87807fc5457f57e3ec0770061.jpeg" width = "150" height = '100' class = imgProduct><br>
+      
+      <div class = innerProducts>
+        <h4 class = itemName>Tomatoes</h4>
+        <h4 > - $</h4>
+        <h4 class =price>0.50</h4>
+      </div>
+
+      <div class = innerProducts>
+      <!--Quality Selection-->
+      <select id = tomatoQ class = quantity>
+        <option value = 1>1</option>
+        <option value = 2>2</option>
+        <option value = 3>3</option>
+        <option value = 4>4</option>
+        <option value = 5>5</option>
+      </select><br>
+
+    <!--Add to cart button-->
+    <button type="button" class = "add"  onclick = 'addToCart(this)'>Add to Cart</button>
+    </div><br>
+  
+   </div>
+
+ </div>
+
+   <!--End of Row 2-->
+
+   <div class = productRow>
+      
+    <div class = product>
+      <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Onion_on_White.JPG/1200px-Onion_on_White.JPG" class = 'imgProduct' width = "150" height = '100' class = imgProduct><br>
+      
+      <div class = innerProducts>
+        <h4 class = itemName>Onions</h4>
+        <h4> - $</h4>
+        <h4 class = price>0.50</h4>
+      </div>
+      
+      <div class = innerProducts>
+      <!--Quality Selection-->
+      <select id = onionQ class = quantity>
+        <option value = 1>1</option>
+        <option value = 2>2</option>
+        <option value = 3>3</option>
+        <option value = 4>4</option>
+        <option value = 5>5</option>
+      </select><br>
+
+    <!--Add to cart button-->
+    <button type="button" class = "add" onclick="addToCart(this)">Add to Cart</button>
+    </div><br>
+  </div>
+
+    <div class = product>
+      <img src = "https://assets.shop.loblaws.ca/products/20017001/b1/en/side/20017001_side_a01_@2.png" width = "150" height = '100' class = imgProduct><br>
+      
+      <div class = innerProducts>
+        <h4 class = itemName>Milk</h4>
+        <h4> - $</h4>
+        <h4 class = price>4.25</h4>
+      </div>
+      
+      <div class = innerProducts>
+      <!--Quality Selection-->
+      <select id =milkQ class = quantity >
+        <option value = 1>1</option>
+        <option value = 2>2</option>
+        <option value = 3>3</option>
+        <option value = 4>4</option>
+        <option value = 5>5</option>
+      </select><br>
+
+    <!--Add to cart button-->
+    <button type="button" class = "add"  onclick = 'addToCart(this)'>Add to Cart</button>
+    </div><br>
+  </div>
+    
+  
+    <div class = product>
+      <img src = "https://lotusfoodservices.co.id/upload/produk/natural%20plain-43xes.jpg" width = "150" height = '100' class = imgProduct><br>
+      
+      <div class = innerProducts>
+        <h4 class = itemName>Yoghurt</h4>
+        <h4> - $</h4>
+        <h4 class = price>6.25</h4>
+      </div>
+      
+
+      <div class = innerProducts>
+      <!--Quality Selection-->
+      <select id = yoghurtQ class = quantity>
+        <option value = 1>1</option>
+        <option value = 2>2</option>
+        <option value = 3>3</option>
+        <option value = 4>4</option>
+        <option value = 5>5</option>
+      </select><br>
+
+    <!--Add to cart button-->
+    <button type="button" class = "add"  onclick = 'addToCart(this)'>Add to Cart</button>
+    </div><br>
+  </div>
+
+
+   </div>
+  </div>
+</div>
+
+
+
+  <div class = "footer">
+   
+    <p>&copy; 2024 Salma. All rights reserved.</p>
+ 
+     <address>
+       Written by <a href = "mailto:salma901@my.yorku.ca">Salma Hassan</a><br>
+       Visit at ABC Street<br>
+       Apartment Complex 123<br>
+       Toronto, Ontario<br>
+       M3W 2K0
+     </address>
+   </div>
+
+   <script src = 'script.js'></script>
+ 
+ </body>
+
+
+</html>
+

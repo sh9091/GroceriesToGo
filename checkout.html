@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = stylesheet href -="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/boot
+  strap.min.css">
+  <link rel = stylesheet href = styles.css>
+  <title>Groceries to Go</title>
+</head>
+
+<body onload = loadAddress()>
+
+  <div class = section id = check>
+
+    <div class = header>
+      <h1>Groceries to Go</h1>
+
+      <nav>
+        <a href = products.html>Products</a>
+        <a href = cart.html>Cart</a>
+        <a href = login.html>Logout</a>
+      </nav>
+
+    </div>
+
+    <h2>Checkout</h2>
+
+    <!--User enters where they live and payment method here-->
+    <h3>Delivery Information</h3>
+
+  <div class = flexCheckout>
+   <div class = forms id = checkout>
+ 
+    <form class = formStyle>
+      <label for = address >Address:</label><br>
+      <input type = text name = address id = address><br>
+
+      <label for = payment>Payment Method:</label><br><br>
+      <select id = payment>
+        <option value = "cash">Cash</option>
+        <option value = "credit card">Credit</option>
+      </select><br><br>
+
+
+      <button  type = button class = add onclick = 'move("cart.html")'> Back to Cart </button>
+      <button  type = button class =add onclick = 'confirmCart()'>Checkout</button>
+
+    </form>
+  </div>
+</div>
+
+  <div class = truckImageBox>
+
+    <img src = truck.png>
+
+  </div>
+
+
+</div>
+
+
+
+
+
+
+  <div class = "footer">
+   
+    <p>&copy; 2024 Salma. All rights reserved.</p>
+ 
+     <address>
+       Written by <a href = "mailto:salma901@my.yorku.ca">Salma Hassan</a><br>
+       Visit at ABC Street<br>
+       Apartment Complex 123<br>
+       Toronto, Ontario<br>
+       M3W 2K0
+     </address>
+   </div>
+
+
+  <script src = script.js></script>
+
+</body>
+</html>

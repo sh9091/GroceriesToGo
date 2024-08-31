@@ -1,0 +1,212 @@
+body{
+background-color:#32620E;
+}
+
+.box{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F3FADC ;
+  height: 600px;
+}
+
+.forms,.footer{
+  text-align: center;
+  color:#F3FADC;
+  background-color:#32620E;
+  padding: 20px;
+  width: 300px;
+  height: fit-content;
+}
+
+.logo{
+  margin-right: 50px;
+}
+.forms input{
+  margin: 10px;
+}
+.forms a,.footer a {
+  color:#F3FADC;
+}
+
+.section{
+  background-color: #F3FADC ;
+  text-align: center;
+  color:#32620E;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.section h1{
+padding:10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section nav{
+  color:#F3FADC;
+  background-color:#32620E;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.section nav a{
+  color:#F3FADC;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.section nav a:hover{
+  background-color: #F3FADC;
+  color: #32620E;
+}
+
+.product{
+  border:solid black;
+  width:fit-content;
+  height: fit-content;
+  margin: 20px;
+  padding:10px;
+}
+
+.product .add, .add{
+  color:#F3FADC;
+  background-color:#32620E;
+  border:solid;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: small;
+}
+
+.product .add:hover,.add:hover{
+  background-color:#F3FADC;
+  color:#32620E;
+
+
+}
+
+.productRow{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.innerProducts{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+select{
+  width:60px;
+  border: solid #32620E;
+  background-color:#F3FADC;
+
+}
+
+input{
+
+  background-color:#F3FADC;
+  border-radius: 20px;
+  border: solid #32620E;
+  padding: 5px;
+}
+
+.imgs{
+  height: 100px;
+  width:150px;
+}
+
+.footer{
+  display:flex;
+  flex-direction: column;
+  height: auto;
+  width:auto;
+  margin: 10px auto;
+  font-size: 15px;
+  padding:20px
+
+  
+}
+
+.cartDisplay{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin:20px;
+  align-items: center;
+
+}
+
+.cartDisplay button{
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.itemDescription{
+  text-align: left;
+  margin-right: 50px;
+}
+
+
+
+#shoppingCartPage{
+  width: 100%;
+}
+
+
+.styleTotal{
+  margin:20px;
+  border-top:#32620E solid 2px;
+  text-align: right;
+  
+}
+
+
+.flexCheckout{
+ display: flex;
+ flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+ height: 300px;
+}
+
+#check{
+  height: 675px;
+}
+
+#confirmPage{
+  height: 578px;
+}
+
+.truckImageBox{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+.truckImageBox img {
+
+  height:150px;
+  width: 300px;
+}
+
+
+#CObutton{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: right;
+}
+
+.confirmationBox{
+  background-color:#32620E;
+  color:#F3FADC;
+  height: 250px;
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+
+}
+
